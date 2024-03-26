@@ -1,0 +1,78 @@
+.zoo.container {
+  position: relative;
+  margin-top: 180px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zoo-card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 366px);
+  row-gap: 20px;
+  column-gap: 30px;
+  justify-content: center;
+  margin-bottom: 86px;
+}
+
+.zoo-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background:  linear-gradient(121deg, #f9804b 0%, #fe9013 100%);
+}
+
+
+.zoo-card-img {
+  /* width: 366px; */
+  background: #fff;
+}
+
+.zoo-card-img img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.zoo-card-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px 12px 16px;
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.zoo-arrows {
+  width: 1325px;
+  position: absolute;
+  top: 409px;
+  left: 138px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 100%;
+  background: linear-gradient(121deg, #f9804b 0%, #fe9013 100%);;
+}
+
+.arrow {
+  top: 27px;
+  left: 23px;
+  fill: #fff;
+  stroke: #fff;
+}
+
+.arrow.left {
+  transform: rotate(180deg);
+}

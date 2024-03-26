@@ -1,0 +1,13 @@
+.about.container {
+  margin-top: 158px;
+  display: flex;
+  column-gap: 87px;
+}
+
+.about-quote {
+  margin: 20px 0 54px 0;
+}
+
+.about-text {
+  margin-top: 35px;
+}

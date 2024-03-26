@@ -1,0 +1,60 @@
+.header {
+  color: var(--color-white);
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;  
+}
+
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 120%;
+  color: var(--color-white);
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 106px;
+  line-height: 75%;
+  color: var(--color-white);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 span {
+  color: var(--color-yellow);
+}
+
+.title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+.quote {
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.about-subtitle {
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--primary-color);
+}
+
