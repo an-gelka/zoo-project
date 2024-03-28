@@ -1,0 +1,39 @@
+.testimonials .title{
+text-align: center;
+}
+
+.comment-list {
+  display: grid;
+  grid-template-columns: repeat(4, 268px);
+  column-gap: 30px;
+  margin: 47px 0 20px 0;
+}
+
+.comment-list-item-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(340deg, #febdab 6.48%, #f3a9f8 22.51%, #e0d8f0 45.57%, #eaf7fe 82.33%, #eaf7fe 99.1%), linear-gradient(340deg, #febdab 6.48%, #f3a9f8 22.51%, #e0d8f0 45.57%, #eaf7fe 82.33%, #eaf7fe 99.1%);
+}
+
+.comment-list-item {
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  padding: 15px;
+  border-radius: 20px;  
+  background-color: #f1f3f2;
+  /* border: 3px solid transparent; */
+}
+
+.comment-about {
+  margin-bottom: 10px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: start;
+}
+
+.comment-info {
+  display: flex;
+  column-gap: 6px;
+}

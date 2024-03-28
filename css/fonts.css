@@ -46,7 +46,7 @@ h1 span {
   line-height: 130%;
 }
 
-.about-subtitle {
+.subtitle {
   font-size: 24px;
   line-height: 120%;
 }
@@ -57,4 +57,46 @@ h1 span {
   line-height: 140%;
   color: var(--primary-color);
 }
+
+.accent {
+  color: var(--accent-color);
+}
+
+.donate-quote {
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.donate-desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.donate-text {
+  font-size: 16px;
+}
+
+.donate-list-text {
+  text-align: center;
+}
+
+.comment-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--color-black);
+}
+
+.comment-info , .commet-bullet  {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  color: var(--color-invisible);
+}
+
+.comment-content {
+  color: var(--color-grey);
+}
+
 

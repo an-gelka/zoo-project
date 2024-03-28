@@ -3,6 +3,8 @@
 @import "header.css";
 @import "about.css";
 @import "zoo.css";
+@import "donate.css";
+@import "comment.css";
 
 * {
   padding: 0;
