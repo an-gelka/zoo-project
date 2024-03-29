@@ -5,6 +5,7 @@
 @import "zoo.css";
 @import "donate.css";
 @import "comment.css";
+@import "footer.css";
 
 * {
   padding: 0;
@@ -52,6 +53,21 @@ ul {
   line-height: 140%;
   color: var(--color-white);
   text-transform: uppercase;
+}
+
+.btn-rectangle {
+  border-radius: 5px;
+}
+
+.btn-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.btn-container {
+  position: relative;
+  width: 100%;
 }
 
 img-box {

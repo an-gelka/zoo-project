@@ -1,5 +1,6 @@
 .about.container {
-  margin-top: 158px;
+  position: relative;
+  padding-top: 158px;
   display: flex;
   column-gap: 87px;
 }
@@ -10,4 +11,10 @@
 
 .about-text {
   margin-top: 35px;
+}
+
+.background-img.inAbout {
+  position: absolute;
+  right: 0;
+  top: 30px;
 }
