@@ -1,6 +1,6 @@
 .about.container {
   position: relative;
-  padding-top: 158px;
+  padding-top: 160px;
   display: flex;
   column-gap: 87px;
 }
@@ -18,3 +18,5 @@
   right: 0;
   top: 30px;
 }
+
+

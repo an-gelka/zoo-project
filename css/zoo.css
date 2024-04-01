@@ -1,6 +1,6 @@
 .zoo.container {
   position: relative;
-  margin-top: 180px; 
+  padding-top: 180px; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +26,10 @@
   background: linear-gradient(129deg, #fe9013,#f9804b,#febdab,#f3a9f8);                                           
 }
 
+.zoo-card:nth-child(7){
+  display: none;
+}
+
 
 .zoo-card-img {
   width: calc(100% - 2px);
@@ -35,6 +39,9 @@
    border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .zoo-card-content {
@@ -51,10 +58,11 @@
 }
 
 .zoo-arrows {
-  width: 1325px;
+  /* width: 1325px; */
+  width: 100%;
+  padding: 0 138px;
   position: absolute;
   top: 409px;
-  left: 138px;
   display: flex;
   justify-content: space-between;
 }

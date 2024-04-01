@@ -31,6 +31,7 @@ h1 {
   text-transform: uppercase;
 }
 
+
 h1 span {
   color: var(--color-yellow);
 }
@@ -112,4 +113,43 @@ input:placeholder {
   font-size: 16px;
   line-height: 130%;
   text-align: end;
+}
+
+@media (max-width: 1025px) {
+  h1 {
+    font-size: 85px;
+  }
+}
+
+@media (max-width: 769px) {
+  h1 {
+    font-size: 54px;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .header .logo {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .about-quote {
+    font-size: 14px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .donate-quote {
+    font-size: 18px;
+    text-align: center;
+  }
 }

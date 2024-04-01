@@ -8,6 +8,7 @@ text-align: center;
   flex-direction: column;
   align-items: center;
   padding-bottom: 180px;
+  padding-top: 140px;
 }
 
 .comment-list {
@@ -22,6 +23,7 @@ text-align: center;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  overflow: hidden;
   background: linear-gradient(141deg, #febdab,#f3a9f8,#e0d8f0,#eaf7fe);
 }
 
@@ -34,7 +36,7 @@ text-align: center;
   height: calc(100% - 2px);
   padding: 15px;
   border-radius: 20px;  
-  background-color: #f1f3f2;
+  background-color: var(--color-default);
   /* border: 1px solid transparent; */
 }
 
@@ -91,5 +93,5 @@ input[type=range]::-webkit-slider-thumb {
 .background-img.inComment {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -117px;
 }

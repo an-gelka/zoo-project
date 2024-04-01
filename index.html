@@ -14,30 +14,32 @@
 <body>
   <div class="wrapper">
     <header class="header container">
-      <div class="logo">
-        <img src="assets/svg/bamboo.svg" alt="">
-        PetStory online
+      <div class="header-box container">
+        <div class="logo">
+          <img class="logo-icon" src="assets/svg/bamboo.svg" alt="">
+          PetStory online
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="#about">About</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#map">Map</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#zoo">Zoos</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#donate">Donate</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#contact">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="link">Designed by ©</div>
       </div>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-list-item">
-            <a href="#about">About</a>
-          </li>
-          <li class="nav-list-item">
-            <a href="#map">Map</a>
-          </li>
-          <li class="nav-list-item">
-            <a href="#zoo">Zoos</a>
-          </li>
-          <li class="nav-list-item">
-            <a href="#donate">Donate</a>
-          </li>
-          <li class="nav-list-item">
-            <a href="#contact">Contact us</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="link">Designed by ©</div>
     </header>
     <section class="screen container">
       <div class="circle"></div>
@@ -47,10 +49,10 @@
     <main class="main">
       <section class="about container" id="about">
         <div class="background-img inAbout">
-          <img src="assets/img/flower_foto1.png" alt="img">
+          <img src="assets/img/flower_foto1.png" alt="img" srcset="assets/img/tablet/flower_foto1.png 768w assets/img/mobile/flower_foto1.png 320w">
         </div>
-        <div class="img-box">
-          <img src="assets/img/bamboo-cap.png" alt="bamboo-cap">
+        <div class="img-box about-img-box">
+          <img src="assets/img/bamboo-cap.png" srcset="assets/img/laptop/cap-laptop.png 1024w" alt="bamboo-cap">
         </div>
         <div class="about-content">
           <h2 class="title">The Backstage of the Wilderness World.</h2>
@@ -65,15 +67,15 @@
       </section>
       <section class="zoo container" id="zoo">
         <div class="background-img inZoo-left">
-          <img src="assets/img/palm_foto.png" alt="img">
+          <img src="assets/img/palm_foto.png" alt="img" srcset="assets/img/laptop/palm_foto.png 1024w assets/img/mobile/palm_foto.png 320w ">
         </div>
         <div class="background-img inZoo-right">
-          <img src="assets/img/strelitzia 1.png" alt="img">
+          <img src="assets/img/strelitzia 1.png" alt="img" srcset="assets/img/laptop/strelitzia.png 1024w assets/img/mobile/strelitzia.png 320w">
         </div>
         <div class="zoo-card-list">
           <div class="zoo-card">
             <div class="img-box zoo-card-img">
-              <img src="assets/img/Rectangle 5.png" alt="1">
+              <img src="assets/img/Rectangle 5.png" alt="1" srcset="assets/img/laptop/panda-laptop.png 1024w assets/img/tablet/panda.png 768w"">
             </div>
             <div class="zoo-card-content">
               <div class="zoo-card-text">
@@ -87,7 +89,7 @@
           </div>
           <div class="zoo-card">
             <div class="img-box zoo-card-img">
-              <img src="assets/img/Rectangle 5 (1).png" alt="1">
+              <img src="assets/img/Rectangle 5 (1).png" alt="1" srcset="assets/img/laptop/eagle-laptop.png 1024w assets/img/tablet/eagle.png 768w"">
             </div>
             <div class="zoo-card-content">
               <div class="zoo-card-text">
@@ -101,7 +103,7 @@
           </div>
           <div class="zoo-card">
             <div class="img-box zoo-card-img">
-              <img src="assets/img/Rectangle 5 (2).png" alt="1">
+              <img src="assets/img/Rectangle 5 (2).png" alt="1" srcset="assets/img/laptop/gorilla-laptop.png 1024w assets/img/tablet/gorilla.png 768w"">
             </div>
             <div class="zoo-card-content">
               <div class="zoo-card-text">
@@ -129,7 +131,7 @@
           </div>
           <div class="zoo-card">
             <div class="img-box zoo-card-img">
-              <img src="assets/img/Rectangle 5 (4).png" alt="1">
+              <img src="assets/img/Rectangle 5 (4).png" alt="1" srcset="assets/img/laptop/cheetah-laptop.png 1024w ">
             </div>
             <div class="zoo-card-content">
               <div class="zoo-card-text">
@@ -143,12 +145,26 @@
           </div>
           <div class="zoo-card">
             <div class="img-box zoo-card-img">
-              <img src="assets/img/Rectangle 5 (5).png" alt="1">
+              <img src="assets/img/Rectangle 5 (5).png" alt="1" srcset="assets/img/laptop/penguin-laptop.png 1024w ">
             </div>
             <div class="zoo-card-content">
               <div class="zoo-card-text">
                 <p class="caption">Penguins</p>
                 <p class="desc">Native to Antarctica</p>
+              </div>
+              <div class="zoo-card-icon">
+                <img src="assets/svg/meet-fish_icon.svg" alt="banana-bamboo">
+              </div>
+            </div>
+          </div>
+          <div class="zoo-card">
+            <div class="img-box zoo-card-img">
+              <img src="assets/img/laptop/aligator-laptop.png" alt="1" srcset="assets/img/laptop/aligator-laptop.png 1024w assets/img/tablet/alligator.png 768w">
+            </div>
+            <div class="zoo-card-content">
+              <div class="zoo-card-text">
+                <p class="caption">Alligators</p>
+                <p class="desc">Native to Southeastern United States</p>
               </div>
               <div class="zoo-card-icon">
                 <img src="assets/svg/meet-fish_icon.svg" alt="banana-bamboo">
@@ -197,8 +213,9 @@
                 </div>
                 <p class="donate-list-text text">Pay with card</p>
               </div>
-              <div class="donate-list-arrow">
+              <div class="donate-list-arrow first-arrow">
                 <img src="assets/svg/Vector.svg" alt="">
+                <img src="assets/svg/arrow.svg" alt="">
               </div>
               <div class="donate-list-item">
                 <div class="donate-list-item-img-box">
@@ -208,6 +225,7 @@
               </div>
               <div class="donate-list-arrow">
                 <img src="assets/svg/Vector.svg" alt="">
+                <img src="assets/svg/arrow.svg" alt="">
               </div>
               <div class="donate-list-item">
                 <div class="donate-list-item-img-box">
@@ -223,7 +241,7 @@
       </div>
       <section class="testimonials container">
         <div class="background-img inComment">
-          <img src="assets/img/leav_foto.png" alt="img">
+          <img src="assets/img/leav_foto.png" alt="img" srcset="assets/img/laptop/leav_foto.png 1024w assets/img/tablet/leav_foto.png 768w assets/img/mobile/leav_foto.png 320w">
         </div>
         <h2 class="title">Testimonials</h2>
         <div class="comment-list">
@@ -334,7 +352,7 @@
     <footer class="footer container">
       <div class="footer-form-container">
         <div class="logo">
-          <img src="assets/svg/bamboo.svg" alt="">
+          <img class="logo-icon" src="assets/svg/bamboo.svg" alt="">
           PetStory online
         </div>
         <form action="#" class="footer-form">
@@ -348,7 +366,7 @@
         </form>
       </div>
       <div class="btn-container">
-      <button class="btn btn-rectangle btn-left">donate for volunteers</button>
+      <button id="btn" class="btn btn-rectangle btn-left">donate for volunteers</button>
 
       </div>
       <div class="footer-social-container">
@@ -401,6 +419,7 @@
       </div>
     </footer>
   </div>
+  <script src="main.js"></script>
 </body>
 
 </html>

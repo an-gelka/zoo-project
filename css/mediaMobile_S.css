@@ -1,0 +1,300 @@
+@media (max-width: 321px) {
+
+  .container {
+    max-width: 320px;
+    padding: 0 10px;
+  }
+
+  .header-box {
+    height: 34px;
+  }
+
+  .header .nav-list {
+    display: none;
+  }
+
+  .header .logo {
+    width: 46px;
+    height: 29px;
+    padding: 0;
+  }
+
+   .header.logo-icon {
+    width: 5px;
+    height: 13px;
+    top: 14px;
+    left: 5px;
+  }
+
+  .screen {
+    height: 187px;
+    background-image: url("../assets/img/mobile/GiantPanda.png");
+  }
+
+  .circle {
+    width: 119px;
+    height: 119px;
+    top: 56px;
+    left: 162px;
+  }
+
+  h1 {
+    width: 128px;
+    top: 75px;
+    left: 180px;
+  }
+
+  .screen.container .btn {
+    left: 60px;
+    top: 210px;
+  }
+
+  .about.container {
+    padding-top: 100px;
+
+  }
+
+  .about-img-box {
+    display: none;
+  }
+
+  .background-img.inAbout {
+    display: block;
+    top: 40px;
+    right: -74px;
+  }
+
+  .background-img.inAbout img {
+    display: block;
+    width: 105px;
+  }
+
+  .about-content {
+    padding-right: 0;
+  }
+
+  .about-quote {
+    margin: 20px 0 10px 0;
+  }
+
+  .about-text {
+    margin-top: 20px;
+  }
+
+  .zoo.container {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .zoo-card-list {
+    grid-template-columns: repeat(1, 285px);
+    grid-template-rows: repeat(4, 345px);
+    row-gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .zoo-card {
+    height: 345px;
+  }
+
+  .background-img.inZoo-left img {
+    width: 58px;
+    height: 71px;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .background-img.inZoo-right img {
+    width: 85px;
+    height: 71px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .zoo-card:nth-child(5),
+  .zoo-card:nth-child(6) {
+    display: none;
+  }
+
+  .zoo-card-img {
+    height: calc(285px - 2px);
+  }
+
+  .zoo-arrows {
+    display: none;
+  }
+
+  .background-block {
+    padding: 20px 0;
+  }
+
+  .donate-content {
+    padding: 20px 5px 40px 5px;
+  }
+
+  .donate-list {
+    grid-template-columns: repeat(1, 168px);
+    grid-template-rows: repeat(3, 231px);
+    row-gap: 20px;
+  }
+
+  .donate-list-arrow {
+    transform: rotate(90deg);
+    position: absolute;
+    justify-content: end;
+    align-items: end;
+    top: 120px;
+    left: 200px;
+  }
+
+  .donate-list-arrow.first-arrow {
+    left: 200px;
+    top: 370px;
+  }
+
+  .donate-list-arrow img:first-child {
+    display: none;
+  }
+
+  .donate-list-arrow img:nth-child(2) {
+    display: block;
+  }
+
+  .testimonials.container {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .comment-list {
+    grid-template-columns: 600px;
+    grid-template-rows: repeat(3, 109px);
+    margin-top: 30px;
+    margin-bottom: 40px;
+    row-gap: 15px;
+    height: 357px;
+    overflow: hidden;
+  }
+
+  .comment-content {
+    display: block;
+    height: 33px;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    overflow: hidden;
+  }
+
+  .comment-list-item-wrap {
+    height: 109px;
+  }
+
+  .slider-box {
+    display: none;
+  }
+
+  .background-img.inComment {
+    bottom: -142px;
+  }
+
+  .footer.container {
+    padding: 12px 20px;
+  }
+
+  .footer-form {
+    display: none;
+  }
+
+  .social-list {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    row-gap: 20px;
+  }
+
+  .social-item p {
+    display: none;
+  }
+
+  .footer-form-container {
+    padding-right: 30px;
+  }
+  .donate-text ,
+  .donate-desc {
+    display: none;
+  }
+
+  .donate-quote {
+    margin: 10px 0 20px 0;
+  }
+
+  .testimonials.container {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+  .comment-list {
+    grid-template-columns: 299px;
+  }
+
+  .background-img.inComment img {
+    width: 77px;
+  }
+
+  .background-img.inComment  {
+    bottom: -60px;
+  }
+
+  .footer .logo {
+    width: 140px;
+    height: 23px;
+  }
+
+  .footer .logo-icon {
+    top: 0;
+    left: 79px;
+  }
+
+  .footer-form-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  } 
+
+
+  .footer-social-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .social-list {
+    flex-direction: row;
+    column-gap: 30px;
+    right: 63px;
+    top: 74px;
+  }
+
+  .footer .nav-list {
+    column-gap: 30px;
+  }
+
+  .footer .nav {
+    order: 2;
+  }
+
+  .footer-text {
+    width: 100%;
+    order: 1;
+    margin: 30px;
+  }
+
+  .btn {
+    width: 200px;
+  }
+
+  .btn-container ,
+  .footer .btn-container {
+    justify-content: center;
+  }
+
+
+}

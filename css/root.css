@@ -7,8 +7,97 @@
   --frosted-glass-white: #fdfdff;
   --color-background: #febdab; 
   --color-invisible: #bdbdbd;
-  --color-grey-light: #F1F3F2;
+  --color-default: #F1F3F2;
   --color-grey: #767474;
+  --color-disabled: #767474;
   --color-footer: #111115;
-  --btn-footer: #4b9200;
+  --color-active: #4b9200;
+  --color-error: #d31414;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+input [type="text"] {
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+::placeholder {
+  opacity: 0.4;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 220px;
+}
+
+.btn {
+  width: 298px;
+  height: 54px;
+  border-radius: 25px;
+  background: linear-gradient(121deg, #f9804b 0%, #fe9013 100%);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+.btn-rectangle {
+  border-radius: 5px;
+}
+
+.btn-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.btn-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+img-box {
+  margin: 0;
+  overflow: hidden;
+}
+
+.background-img  img{
+  display: block;
 }

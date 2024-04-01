@@ -6,71 +6,8 @@
 @import "donate.css";
 @import "comment.css";
 @import "footer.css";
+@import "mediaLaptop.css";
+@import "mediaTablet.css";
+@import "mediaMobile_S.css";
+@import "interaction.css";
 
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-body {
-  height: 100%;
-  line-height: 1;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  color: var(--primary-color);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  list-style: none;
-}
-
-.wrapper {
-  min-height: 100%;
-  overflow: hidden;
-}
-
-.container {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 220px;
-}
-
-.btn {
-  width: 298px;
-  height: 54px;
-  border-radius: 25px;
-  background: linear-gradient(121deg, #f9804b 0%, #fe9013 100%);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 140%;
-  color: var(--color-white);
-  text-transform: uppercase;
-}
-
-.btn-rectangle {
-  border-radius: 5px;
-}
-
-.btn-left {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.btn-container {
-  position: relative;
-  width: 100%;
-}
-
-img-box {
-  margin: 0;
-  overflow: hidden;
-}

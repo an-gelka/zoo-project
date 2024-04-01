@@ -1,6 +1,11 @@
-.header {
+.header.container {
+  position: relative;
+}
+
+.header-box {
   position: absolute;
   top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,7 +13,7 @@
   height: 80px;
   backdrop-filter: blur(4px);
   /* filter: brightness(40%); */
-  background-color:rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, .8);
 }
 
 .nav-list {
@@ -21,8 +26,10 @@
 .screen {
   background-image: url("../assets/img/GiantPanda.png");
   background-repeat: no-repeat;
-  height: 780px;
+  background-size: cover;
+  /* background-size: contain; */
   z-index: -1;
+  height: 780px;
 }
 
 .screen.container {
@@ -37,7 +44,7 @@
   border: 1px solid #fff;
 }
 
-.logo img {
+.logo-icon {
   position: absolute;
   top: 24.64px;
   left: 11.13px;
@@ -58,7 +65,8 @@ h1 {
   width: 465px;
   height: 465px;
   border-radius: 100%;
-  background: linear-gradient(121deg, #f9804b 0%, #fe9013 100%);;
+  background: linear-gradient(121deg, #f9804b 0%, #fe9013 100%);
+  ;
 }
 
 .screen.container .btn {

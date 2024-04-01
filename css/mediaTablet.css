@@ -1,0 +1,194 @@
+@media (max-width: 769px) {
+
+  .container {
+    max-width: 768px;
+    padding: 0 20px;
+  }
+
+  .header-box {
+    height: 34px;
+  }
+
+  .header .nav-list {
+    display: none;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .screen {
+    height: 373px;
+    background-image: url("../assets/img/tablet/GiantPanda.png");
+  }
+
+  .circle {
+    width: 237px;
+    height: 237px;
+    top: 44px;
+    left: 331px;
+  }
+
+  h1 {
+    width: 255px;
+    top: 82px;
+    left: 368px;
+  }
+
+  .screen.container .btn {
+    left: 20px;
+    top: 280px;
+  }
+
+  .about.container {
+    padding-top: 60px;
+
+  }
+
+  .about-img-box {
+    display: none;
+  }
+
+  .background-img.inAbout {
+    display: block;
+    top: 0;
+  }
+
+  .about-content {
+    padding-right: 105px;
+  }
+
+  .about-quote {
+    margin: 20px 0 30px 0;
+  }
+
+  .about-text {
+    margin-top: 20px;
+  }
+
+  .zoo.container {
+    padding-top: 140px;
+    padding-top: 140px;
+  }
+
+  .zoo-card-list {
+    grid-template-columns: repeat(2, 285px);
+    row-gap: 90px;
+    margin-bottom: 60px;
+  }
+
+  .zoo-card {
+    height: 345px;
+  }
+
+  .zoo-card:nth-child(5),
+  .zoo-card:nth-child(6) {
+    display: none;
+  }
+
+  .zoo-card-img {
+    height: calc(285px - 2px);
+  }
+
+  .zoo-arrows {
+    padding: 0 243px;
+    top: 495px;
+  }
+
+  .background-block {
+    padding: 20px 0;
+  }
+
+  .donate-content {
+    padding: 10px 20px 60px 20px;
+  }
+
+  .donate-list {
+    grid-template-columns: repeat(3, 168px);
+    column-gap: 42px;
+  }
+
+  .donate-list-arrow {
+    position: absolute;
+    justify-content: start;
+    align-items: start;
+    top: -17px;
+    left: 345px;
+  }
+
+  .donate-list-arrow.first-arrow {
+    left: 137px;
+  }
+
+  .donate-list-arrow img:first-child {
+    display: none;
+  }
+
+  .donate-list-arrow img:nth-child(2) {
+    display: block;
+  }
+
+  .testimonials.container {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .comment-list {
+    grid-template-columns: 600px;
+    grid-template-rows: repeat(3, 109px);
+    margin-top: 30px;
+    margin-bottom: 40px;
+    row-gap: 15px;
+    height: 357px;
+    overflow: hidden;
+  }
+
+  .comment-content {
+    display: block;
+    height: 33px;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    overflow: hidden;
+  }
+
+  .comment-list-item-wrap {
+    height: 109px;
+  }
+
+  .slider-box {
+    display: none;
+  }
+
+  .background-img.inComment {
+    bottom: -142px;
+  }
+
+  .footer.container {
+    padding: 12px 20px;
+  }
+
+  .footer .btn-container {
+    justify-content: start;
+  }
+
+  .footer-form {
+    display: none;
+  }
+
+  .social-list {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    row-gap: 20px;
+  }
+
+  .social-item p {
+    display: none;
+  }
+
+  .footer-form-container {
+    padding-right: 30px;
+  }
+
+  
+}

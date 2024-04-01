@@ -1,0 +1,66 @@
+a ,
+.link ,
+button , 
+input , 
+.logo , 
+.circle-arrow , 
+.zoo-card ,
+.donate-list-item ,
+.slider-box ,
+.social-item{
+  cursor: pointer;
+}
+
+
+.btn:hover ,
+.circle-arrow:hover {
+  background: var(--color-active);
+}
+
+.btn:disabled , 
+.circle-arrow:disabled {
+  background: var(--color-disabled);
+}
+
+.btn-footer:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.btn-footer:active {
+  border-color: var(--color-active);
+  color: var(--color-active);
+}
+
+
+input:hover {
+  border-color: var(--accent-color);
+}
+
+input:focus {outline:none;
+color:var(--color-active);
+font-size: 16px;
+border-color: var(--color-active);}
+
+input:focus::placeholder {
+ opacity: 0;;
+}
+
+input:active {
+border-color: var(--color-active);
+}
+
+a:hover ,
+.logo:hover ,
+.link:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.social-item:hover .icon-social-box {  
+  background: var(--color-active);
+}
+
+.social-item:hover {
+  color: var(--color-active);
+}

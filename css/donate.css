@@ -4,7 +4,6 @@
 }
 
 .background-block {
-  margin-bottom: 140px;
   padding: 70px 0 100px 0;
   background-color: var(--color-background);
 }
@@ -28,6 +27,7 @@
 }
 
 .donate-list {
+  position: relative;
   margin: 40px 0 60px 0;
   display: grid;
   grid-template-columns: 168px 130px 168px 130px 168px;
@@ -51,4 +51,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.donate-list-arrow img:nth-child(2) {
+  display: none;
 }
